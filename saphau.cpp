@@ -9,8 +9,7 @@ void recursive_queen(int arr[], int n, int r);
 void print(int arr[], int n);
 int main ()
 {
-	int n;
-	cin >> n;
+	int n = 5;
 	int arr[8];
 	memset(arr, 0, sizeof(arr));
 	recursive_queen(arr, n, 0);
